@@ -11,3 +11,5 @@ Our model is trained using the Resnet 50 pre trained model provided by Tensorflo
 #Deployment
 Deployment was done using Flask
 
+https://drive.google.com/drive/folders/1WwW2bAa2H22R52m634GoYPNHNGGU8-Tk
+The link above contains the datasets used in the training of the model, the saved model and the deployment model.
