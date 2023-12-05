@@ -1,4 +1,5 @@
 # Skin_Cancer_Prediction
+The actual models used are Cancer_Prediction and Skin_Cancer_Prediction1. However, for the testing and deployment, Cancer_Prediction was used.
 This model is built of the Kaggle Dataset containing approximately 4,0000 images of malignant and beningn moles.This is the link to the dataset;https://www.kaggle.com/datasets/fanconic/skin-cancer-malignant-vs-benign 
 The project first starts by importing the necessary libraries such as Keras and Tensorflow. The data is then loaded into the notebook. The images are then turned into numpy arrays using their RGB vlaues. The images are already in the Standard form ( 224*224) therefore there's no need to reshape them.
 Labels for the y-values are then created and the data is combined and split into training and testing sets. The labels are onehot encoded and the X data is normalised
