@@ -6,10 +6,12 @@ Labels for the y-values are then created and the data is combined and split into
 Using the matplotlib library, images in the train dataset are displayed.
 
 #Training
-Our model is trained using the Resnet 50 pre trained model provided by Tensorflow which has been trained using Imagenet. The Resnet model is fed the images and builds a build based of its previous knowledge. The model performs very well with an accuracy of approximately 95%. The model is then tested, trained ,saved and used for deployment.
+There are two different kinds of models trained, the first uses the Resnet50 model to extract the features and train another model using those features. The next model uses Resnet (without its pretrained weights) to train the model. The latter model performs best and is tested on a particular image to see if it can predict accurately and it did.
+
+
 
 #Deployment
-Deployment was done using Flask
+Deployment was done using Streamlit
 
 https://drive.google.com/drive/folders/1WwW2bAa2H22R52m634GoYPNHNGGU8-Tk
-The link above contains the datasets used in the training of the model, the saved model and the deployment model.
+The link above contains the saved model and the deployment model.
